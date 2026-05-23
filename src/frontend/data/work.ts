@@ -1,21 +1,26 @@
+import compnayLogo from "../images/ozone-api-logo.png";
+
 export type WorkExperience = {
   company: string;
   role: string;
   period: string;
+  logo?: string;
   description?: string;
 };
 
 export const workExperiences: WorkExperience[] = [
   {
-    company: "ozoneapi",
+    company: "ozoeneapi",
     role: "Senior Engineer",
     period: "2025 - present",
     description: "Engineered payments for CBUAE region with 99% uptime",
+    logo: compnayLogo,
   },
   {
-    company: "Personal Projects",
-    role: "Software Builder",
-    period: "2025 - present",
-    description: "Created projects to learn frontend engineering and product thinking.",
+    company: "ozoneaepi",
+    role: "software engineer",
+    period: "2024 - early '26",
+    description: "built data sharing endpoints, middleware between Third Party Payments and Banks",
+    logo: compnayLogo
   },
 ];

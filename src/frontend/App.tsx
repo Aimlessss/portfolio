@@ -3,9 +3,13 @@ import Section from "./components/Section";
 import { projects } from "./data/projects";
 import WorkItem from "./components/WorkItem";
 import { workExperiences } from "./data/work";
+import FloatingDock from "./components/floatingDock";
+
+
 
 function App() {
   return (
+    <>
     <main className="page-shell">
       <Section className="hero fade-in">
         <h1>hi, atharva here</h1>
@@ -27,7 +31,7 @@ function App() {
           right now im working at product based startup which handles payments accross the world
         </p>
       </Section>
-    <Section title="cool places i worked at" className="fade-in delay-2">
+    <Section title="cool places ive worked at" className="fade-in delay-2">
       <div className="work-list">
         {workExperiences.map((work) => (
           <WorkItem key={`${work.company}-${work.period}`} work={work} />
@@ -42,6 +46,8 @@ function App() {
       </div>
     </Section>
     </main>
+    <FloatingDock/>
+    </>
   );
 }
 

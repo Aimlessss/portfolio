@@ -6,14 +6,16 @@ type WorkItemProps = {
 
 function WorkItem({ work }: WorkItemProps) {
   return (
-    <article className="work-item">
-      <div>
+    <article>
+
+      <img src = {work.logo!} alt={`${work.company} logo`}className="work-logo"/>
+      <div className = "work-content">
         <h3>{work.company}</h3>
         <p>{work.role}</p>
-        {work.description && <p className="work-description">{work.description}</p>}
+        <p>{work.description}</p>
       </div>
 
-      <span>{work.period}</span>
+      <p className="work-period">{work.period}</p>
     </article>
   );
 }
