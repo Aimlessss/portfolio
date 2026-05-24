@@ -20,8 +20,13 @@ function ProjectCard({ project }: ProjectCardProps) {
         )}
 
         {project.liveUrl && (
-          <a href={project.liveUrl} target="_blank" rel="noreferrer">
-            Live
+          <a
+            className="project-link project-link-live"
+            href={project.liveUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Live
           </a>
         )}
       </div>
