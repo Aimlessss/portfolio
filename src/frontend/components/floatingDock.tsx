@@ -28,6 +28,12 @@ const dockItems: DockItem[] = [
     icon: "in",
     external: true,
   },
+  {
+    label : "LeetCode",
+    href : 'https://leetcode.com/u/A1mless/',
+    icon : 'LC',
+    external : true
+  }
 ];
 
 
