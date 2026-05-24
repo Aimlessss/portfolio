@@ -200,11 +200,12 @@ body {
   transform: translateY(-4px);
 }
 
-.dock-icon {
-  font-size: 18px;
-  font-weight: 800;
+.dock-icon img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  object-fit: contain;
 }
-
 .dock-label {
   position: absolute;
   top: -42px;

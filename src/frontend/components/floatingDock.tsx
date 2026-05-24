@@ -1,7 +1,10 @@
+import { ReactNode } from "react";
+import githubLogo from "../images/github.png";
+import leetcodeLogo from "../images/leetcode-logo.png";
 type DockItem = {
   label: string;
   href: string;
-  icon: string;
+  icon: string | ReactNode;
   external?: boolean;
 };
 
@@ -19,7 +22,7 @@ const dockItems: DockItem[] = [
   {
     label: "GitHub",
     href: "https://github.com/Aimlessss",
-    icon: "GH",
+    icon: <img src={githubLogo} alt="" aria-hidden="true" />,
     external: true,
   },
   {
@@ -31,7 +34,7 @@ const dockItems: DockItem[] = [
   {
     label : "LeetCode",
     href : 'https://leetcode.com/u/A1mless/',
-    icon : 'LC',
+    icon: <img src={leetcodeLogo} alt="" aria-hidden="true" />,
     external : true
   }
 ];
