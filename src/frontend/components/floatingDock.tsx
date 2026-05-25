@@ -14,11 +14,11 @@ const dockItems: DockItem[] = [
     href: "#top",
     icon: "⌂",
   },
-  {
-    label: "Blog",
-    href: "#blog",
-    icon: "▤",
-  },
+  // {
+  //   label: "Blog (Coming Soon)",
+  //   href: "#blog",
+  //   icon: "▤",
+  // },
   {
     label: "GitHub",
     href: "https://github.com/Aimlessss",
