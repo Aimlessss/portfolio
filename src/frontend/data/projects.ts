@@ -16,6 +16,7 @@ export const projects: Project[] = [
   {
     title: "HFT Trades decision based agent",
     description:
-      "Tried implementing a decision-making agent which takes trade - failed miserably."
+      "Tried implementing a decision-making agent which takes trade - failed miserably.",
+    githubUrl: 'https://github.com/Aimlessss/High-Frequency-Trading-Service'
   }
 ];
