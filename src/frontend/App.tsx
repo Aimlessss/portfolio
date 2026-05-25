@@ -4,7 +4,7 @@ import { projects } from "./data/projects";
 import WorkItem from "./components/WorkItem";
 import { workExperiences } from "./data/work";
 import FloatingDock from "./components/floatingDock";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
