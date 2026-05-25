@@ -11,7 +11,7 @@ export type WorkExperience = {
 export const workExperiences: WorkExperience[] = [
   {
     company: "ozoeneapi",
-    role: "Senior Engineer",
+    role: "senior engineer",
     period: "2025 - present",
     description: "Engineered payments for CBUAE region with 99% uptime",
     logo: compnayLogo,
@@ -19,7 +19,7 @@ export const workExperiences: WorkExperience[] = [
   {
     company: "ozoneaepi",
     role: "software engineer",
-    period: "2024 - early '26",
+    period: "2024 - early '25",
     description: "built data sharing endpoints, middleware between Third Party Payments and Banks",
     logo: compnayLogo
   },
