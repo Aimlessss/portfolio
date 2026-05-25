@@ -5,6 +5,7 @@ import WorkItem from "./components/WorkItem";
 import { workExperiences } from "./data/work";
 import FloatingDock from "./components/floatingDock";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
     </main>
     <FloatingDock/>
     <Analytics />
+    <SpeedInsights/>
     </>
   );
 }
