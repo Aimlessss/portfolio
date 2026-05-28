@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import githubLogo from "../images/github.png";
 import leetcodeLogo from "../images/leetcode-logo.png";
+import twtLogo from '../images/x-log-withoug-background.png'
 type DockItem = {
   label: string;
   href: string;
@@ -29,6 +30,12 @@ const dockItems: DockItem[] = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/atharva-kulkarni-9a992322b/",
     icon: "in",
+    external: true,
+  },
+  {
+    label: "X (Twitter)",
+    href: "https://x.com/A1mlesss",
+    icon: <img src={twtLogo} alt="" aria-hidden="true" />,
     external: true,
   },
   {
