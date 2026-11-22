@@ -7,6 +7,11 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "MOHESR University Onboarding Agent",
+    description: "Built a RAG assistant that helps 100+ users look up required API fields and build requests using UAE higher education specifications, with citations to the source documents.",
+    liveUrl: "https://ministries-of-edu-mohesr-ai-agent.vercel.app/",
+  },
     {
     title: "RAG-based AI Agent",
     description:
