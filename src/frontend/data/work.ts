@@ -10,6 +10,12 @@ export type WorkExperience = {
 
 export const workExperiences: WorkExperience[] = [
   {
+    company: "GSS",
+    role: "Senior Software Engineer (seconded by Ozone API)",
+    period: "Jul 2025 – present",
+    description: "Led Orient Insurance’s Open Finance integration into production and helped Ajman Bank migrate vendors in one month.",
+  },
+  {
     company: "ozoeneapi",
     role: "senior engineer",
     period: "2025 - present",

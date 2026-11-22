@@ -8,7 +8,11 @@ function WorkItem({ work }: WorkItemProps) {
   return (
     <article>
 
-      <img src = {work.logo!} alt={`${work.company} logo`}className="work-logo"/>
+      {work.logo ? (
+        <img src={work.logo} alt={`${work.company} logo`} className="work-logo" />
+      ) : (
+        <span aria-hidden="true" />
+      )}
       <div className = "work-content">
         <h3>{work.company}</h3>
         <p>{work.role}</p>
