@@ -13,7 +13,7 @@ export const workExperiences: WorkExperience[] = [
     company: "GSS",
     role: "Senior Software Engineer (seconded by Ozone API)",
     period: "Jul 2025 – present",
-    description: "Led Orient Insurance’s Open Finance integration into production and helped Ajman Bank migrate vendors in one month.",
+    description: "Lead Open Finance and Open Banking implementation projects across UAE banking and insurance clients, aligning delivery with evolving Central Bank of the UAE (CBUAE) requirements.",
   },
   {
     company: "ozoeneapi",
