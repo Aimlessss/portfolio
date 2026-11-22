@@ -1,3 +1,4 @@
+import BlogTimeline from "./components/BlogTimeline";
 import ProjectCard from "./components/ProjectCard";
 import Section from "./components/Section";
 import { projects } from "./data/projects";
@@ -45,6 +46,10 @@ function App() {
           <ProjectCard key={project.title} project={project} />
         ))}
       </div>
+    </Section>
+    <Section title="articles & research" className="fade-in">
+      <p>I wrote these first three articles before I started using AI writing tools.</p>
+      <BlogTimeline />
     </Section>
     </main>
     <FloatingDock/>
