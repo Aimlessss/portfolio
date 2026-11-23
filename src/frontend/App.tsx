@@ -36,7 +36,7 @@ function App() {
     <Section title="cool places ive worked at" className="fade-in delay-2">
       <div className="work-list">
         {workExperiences.map((work) => (
-          <WorkItem key={`${work.company}-${work.period}`} work={work} />
+          <WorkItem key={work.company} work={work} />
         ))}
       </div>
     </Section>
