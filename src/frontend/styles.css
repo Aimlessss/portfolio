@@ -297,7 +297,7 @@ body {
   color: #9ca3af;
 }
 
-.experience-divider {
+.page-shell > .section + .section {
   border-top: 1px solid #2a2a2a;
   padding-top: 32px;
 }
