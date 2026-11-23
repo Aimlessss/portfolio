@@ -40,7 +40,7 @@ function App() {
         ))}
       </div>
     </Section>
-    <Section title="projects" className="fade-in delay-2 experience-divider">
+    <Section title="projects" className="fade-in delay-2">
       <div className="project-list">
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
